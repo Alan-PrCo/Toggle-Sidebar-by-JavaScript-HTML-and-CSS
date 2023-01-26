@@ -1,0 +1,106 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.nav-main {
+
+top:0;
+    width: 100%;
+    height:60px;
+    background-color: #FFF;
+    display: flex;
+    
+   
+}
+.btn-toggle-navvv{
+
+}
+
+.btn-toggle-nav {
+    width : 50px; 
+    height: 100%;
+   
+    background-image: url("lo.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.back{
+    line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+    
+
+}
+
+
+
+
+.btn-toggle-nav:hover {
+  opacity: 0.5;
+}
+
+.nav-main ul {
+    display: flex;
+    
+    padding-left: 15px;
+} 
+
+.nav-main ul li {
+   list-style: none;
+line-height: 60px;
+} 
+.nav-main ul li a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.nav-sidebar {
+    
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    background-color: #1b1b1b;
+   
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul {
+  padding-top:15px;  
+ 
+  visibility: hidden;
+}
+
+.nav-sidebar ul  li {
+    line-height: 60px;
+    list-style: none;
+}
+
+.nav-sidebar ul  li span, .nav-sidebar ul li a {
+    display:block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: arial;
+    font-size: 16px;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover {
+   background-color: #222;
+}
+
